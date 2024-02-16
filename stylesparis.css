@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: whitesmoke;
+}
+
+main {
+    padding: 20px;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+
+}
+
+.destination-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.destination-item h3 {
+    margin-bottom: 10px;
+}
+
+.destination-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px;
+    width: 125px;
+    height: 37px;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    display: inline;
+    margin: 0 20px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.upcomingtour{
+    width: 33%;
+    height: 700px;
+    background-color: white;
+    margin: 3px 20px;
+}
+.upcoming{
+    display: flex;
+    margin: 0 100px;
+}
+.img{
+    width: 100%;
+}
+b{
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+}
+.w2{
+    margin: 0 20px;
+}
+.w23{
+    margin: 20px;
+}
+button{
+    padding: 10px;
+    width: 125px;
+    height: 37px;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    display: inline;
+    margin: 30px 120px;
+    text-align: center;
+}
